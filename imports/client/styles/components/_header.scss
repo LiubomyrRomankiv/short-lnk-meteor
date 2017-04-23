@@ -1,0 +1,17 @@
+.header{
+	background: $header-bg;
+	color: $header-color;
+	margin-bottom: $space; 
+	& h1{
+		margin-bottom: 0;  
+	}
+}
+
+.header__content{
+	display: flex;
+	-webkit-justify-content: space-between; 
+					justify-content: space-between; 
+	max-width: $site-max-width;
+	margin: 0 auto;
+	padding: $space;  
+}
